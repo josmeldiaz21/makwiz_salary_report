@@ -1,3 +1,7 @@
-# README #
+## Salary Report
 
-Custom app for franciscoyasociados to create reports
+Custom Salary Report
+
+#### License
+
+MIT
