@@ -21,4 +21,18 @@ def get_data():
 				},
 			]
 		},
+
+		{
+			"label": _("Payroll"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Pre Payroll",
+					"label": _("Pre Payroll"),
+					"description":_("set payroll frequency before process payroll"),
+					"hide_count": True
+				},
+			]
+		},
+
 	]

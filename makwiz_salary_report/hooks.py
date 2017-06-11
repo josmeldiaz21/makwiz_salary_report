@@ -12,6 +12,7 @@ app_email = "kmodi@makwiz.com"
 app_license = "MIT"
 
 required_apps = ["erpnext"]
+fixtures = ["Custom Field", "Property Setter"]
 
 # Includes in <head>
 # ------------------
@@ -80,13 +81,12 @@ required_apps = ["erpnext"]
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Salary Slip": {
+		"before_insert": "makwiz_salary_report.hooks_call.salary_slip.update_statistical_component_before_insert",
+		"after_insert": "makwiz_salary_report.hooks_call.salary_slip.update_statistical_component_after_insert"
+	}
+}
 
 # Scheduled Tasks
 # ---------------
