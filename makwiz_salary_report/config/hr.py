@@ -16,6 +16,12 @@ def get_data():
 				{
 					"type": "report",
 					"is_query_report": True,
+					"name": "NOMINA con deducciones",
+					"doctype": "Salary Slip"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
 					"name": "CONTRIBUCION EMPLEADOR",
 					"doctype": "Salary Slip"
 				},
