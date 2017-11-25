@@ -16,10 +16,7 @@
  "ref_doctype": "Salary Slip", 
  "report_name": "CONTRIBUCION EMPLEADOR", 
  "report_type": "Query Report", 
- "roles": [
-  {
-   "role": "Asistente de Contabilidad"
-  }, 
+ "roles": [ 
   {
    "role": "HR User"
   }, 

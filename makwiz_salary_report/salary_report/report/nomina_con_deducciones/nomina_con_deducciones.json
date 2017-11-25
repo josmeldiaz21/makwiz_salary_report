@@ -18,9 +18,6 @@
  "report_type": "Query Report", 
  "roles": [
   {
-   "role": "Asistente de Contabilidad"
-  }, 
-  {
    "role": "HR User"
   }, 
   {
