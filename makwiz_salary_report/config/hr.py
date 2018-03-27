@@ -31,6 +31,12 @@ def get_data():
 					"name": "Nomina Francisco-Nexia",
 					"doctype": "Salary Slip"
 				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Nomina Francisco-Nexia - EMPLEADOR",
+					"doctype": "Salary Slip"
+				},
 			]
 		},
 
