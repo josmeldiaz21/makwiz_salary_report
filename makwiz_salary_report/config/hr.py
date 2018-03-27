@@ -25,6 +25,12 @@ def get_data():
 					"name": "CONTRIBUCION EMPLEADOR",
 					"doctype": "Salary Slip"
 				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Nomina Francisco-Nexia",
+					"doctype": "Salary Slip"
+				},
 			]
 		},
 
