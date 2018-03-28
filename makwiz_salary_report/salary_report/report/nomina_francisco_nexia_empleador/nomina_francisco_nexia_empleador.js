@@ -1,4 +1,4 @@
-frappe.query_reports["Nomina Francisco-Nexia"] = {
+frappe.query_reports["Nomina Francisco-Nexia - EMPLEADOR"] = {
     "filters": [
         {
             "fieldname":"from_date",
