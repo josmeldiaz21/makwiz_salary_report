@@ -43,6 +43,12 @@ def get_data():
 					"name": "Nomina 2",
 					"doctype": "Salary Slip"
 				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Nomina CHAI",
+					"doctype": "Salary Slip"
+				},
 			]
 		},
 
